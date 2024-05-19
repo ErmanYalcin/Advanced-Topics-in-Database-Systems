@@ -1,0 +1,627 @@
+{
+
+  "Simulation_10_Isolation_ReadUncommitted_DB_Part 1: Without indexes ✘": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 2553,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 2553.0,
+      "TotalTimeoutDuration": 0
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 432469,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 432469.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_11_Isolation_ReadUncommitted_DB_Part 1: Without indexes ✘": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 175101,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 8755.05,
+      "TotalTimeoutDuration": 0
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 7509288,
+      "TotalDeadlocks": 2,
+      "AverageDuration": 375464.4,
+      "TotalTimeoutDuration": 26505000
+    }
+  },
+  "Simulation_12_Isolation_ReadUncommitted_DB_Part 1: Without indexes ✘": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 884124,
+      "TotalDeadlocks": 1,
+      "AverageDuration": 8841.24,
+      "TotalTimeoutDuration": 6000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 46320000,
+      "TotalDeadlocks": 12,
+      "AverageDuration": 463200.0,
+      "TotalTimeoutDuration": 1200000
+    }
+  },
+  "Simulation_13_Isolation_ReadUncommitted_DB_Part 1: Without indexes ✘": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 1756780,
+      "TotalDeadlocks": 3,
+      "AverageDuration": 8783.9,
+      "TotalTimeoutDuration": 13000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 104640000,
+      "TotalDeadlocks": 27,
+      "AverageDuration": 523200.0,
+      "TotalTimeoutDuration": 2400000
+    }
+  },
+  "Simulation_14_Isolation_ReadUncommitted_DB_Part 1: Without indexes ✘": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 4400000,
+      "TotalDeadlocks": 7,
+      "AverageDuration": 8800.0,
+      "TotalTimeoutDuration": 32000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 291000000,
+      "TotalDeadlocks": 55,
+      "AverageDuration": 582000.0,
+      "TotalTimeoutDuration": 6000000
+    }
+  },
+  "Simulation_15_Isolation_ReadUncommitted_DB_Part 1: Without indexes ✘": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 8754321,
+      "TotalDeadlocks": 13,
+      "AverageDuration": 8754.32,
+      "TotalTimeoutDuration": 70000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 738700000,
+      "TotalDeadlocks": 117,
+      "AverageDuration": 738700.0,
+      "TotalTimeoutDuration": 12000000
+    }
+  },
+  "Simulation_12_Isolation_ReadCommitted_DB_Part 1: Without indexes ✘": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 268665,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 268665.0,
+      "TotalTimeoutDuration": 5000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 3918,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 3918.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_13_Isolation_ReadCommitted_DB_Part 1: Without indexes ✘": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 7536687,
+      "TotalDeadlocks": 1,
+      "AverageDuration": 376834.35,
+      "TotalTimeoutDuration": 21620000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 314618,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 15730.9,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_14_Isolation_ReadCommitted_DB_Part 1: Without indexes ✘": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 57320000,
+      "TotalDeadlocks": 8,
+      "AverageDuration": 573200.0,
+      "TotalTimeoutDuration": 2100000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 915243,
+      "TotalDeadlocks": 2,
+      "AverageDuration": 9152.43,
+      "TotalTimeoutDuration": 6000
+    }
+  },
+  "Simulation_15_Isolation_ReadCommitted_DB_Part 1: Without indexes ✘": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 138650000,
+      "TotalDeadlocks": 21,
+      "AverageDuration": 693250.0,
+      "TotalTimeoutDuration": 6300000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 1768323,
+      "TotalDeadlocks": 9,
+      "AverageDuration": 8841.62,
+      "TotalTimeoutDuration": 38000
+    }
+  },
+  "Simulation_16_Isolation_ReadCommitted_DB_Part 1: Without indexes ✘": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 476200000,
+      "TotalDeadlocks": 71,
+      "AverageDuration": 952400.0,
+      "TotalTimeoutDuration": 8400000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 4386543,
+      "TotalDeadlocks": 11,
+      "AverageDuration": 8773.08,
+      "TotalTimeoutDuration": 75000
+    }
+  },
+  "Simulation_17_Isolation_ReadCommitted_DB_Part 1: Without indexes ✘": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 1047600000,
+      "TotalDeadlocks": 174,
+      "AverageDuration": 1047600.0,
+      "TotalTimeoutDuration": 27000000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 8832143,
+      "TotalDeadlocks": 17,
+      "AverageDuration": 8832.14,
+      "TotalTimeoutDuration": 65000
+    }
+  },
+  "Simulation_14_Isolation_RepeatableRead_DB_Part 1: Without indexes ✘": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 284049,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 284049.0,
+      "TotalTimeoutDuration": 5000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 3962,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 3962.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_15_Isolation_RepeatableRead_DB_Part 1: Without indexes ✘": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 10628456,
+      "TotalDeadlocks": 4,
+      "AverageDuration": 531422.8,
+      "TotalTimeoutDuration": 10500000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 313825,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 15691.25,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_16_Isolation_RepeatableRead_DB_Part 1: Without indexes ✘": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 63050000,
+      "TotalDeadlocks": 28,
+      "AverageDuration": 630500.0,
+      "TotalTimeoutDuration": 1100000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 915243,
+      "TotalDeadlocks": 9,
+      "AverageDuration": 9152.43,
+      "TotalTimeoutDuration": 5000
+    }
+  },
+  "Simulation_17_Isolation_RepeatableRead_DB_Part 1: Without indexes ✘": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 243650000,
+      "TotalDeadlocks": 57,
+      "AverageDuration": 1218250.0,
+      "TotalTimeoutDuration": 3300000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 3768323,
+      "TotalDeadlocks": 17,
+      "AverageDuration": 18841.62,
+      "TotalTimeoutDuration": 58000
+    }
+  },
+  "Simulation_15_Isolation_Serializable_DB_Part 1: Without indexes ✘": {
+    "TypeB_Serializable_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 120273,
+      "TotalDeadlocks": 44,
+      "AverageDuration": 120273.0,
+      "TotalTimeoutDuration": 40000
+    },
+    "TypeA_Serializable_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 225544,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 225544.0,
+      "TotalTimeoutDuration": 55000
+    }
+  },
+  "Simulation_16_Isolation_Serializable_DB_Part 1: Without indexes ✘": {
+    "TypeB_Serializable_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 2500000,
+      "TotalDeadlocks": 58,
+      "AverageDuration": 125000.0,
+      "TotalTimeoutDuration": 30000
+    },
+    "TypeA_Serializable_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 10000000,
+      "TotalDeadlocks": 75,
+      "AverageDuration": 500000.0,
+      "TotalTimeoutDuration": 5500000
+    }
+  },
+  "Simulation_17_Isolation_Serializable_DB_Part 1: Without indexes ✘": {
+    "TypeB_Serializable_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 9382143,
+      "TotalDeadlocks": 112,
+      "AverageDuration": 93821.43,
+      "TotalTimeoutDuration": 76000
+    },
+    "TypeA_Serializable_Server=localhost;Database=AdventureWorks2022WithoutIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 150760000,
+      "TotalDeadlocks": 210,
+      "AverageDuration": 1507600.0,
+      "TotalTimeoutDuration": 8300000
+    }
+  },
+  "Simulation_16_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 2586,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 0.0,
+      "TotalTimeoutDuration": 0
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 439610,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 0.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_10_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 1533,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 1533.0,
+      "TotalTimeoutDuration": 0
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 312469,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 312469.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_11_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 105101,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 5255.05,
+      "TotalTimeoutDuration": 0
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 5509288,
+      "TotalDeadlocks": 1,
+      "AverageDuration": 275464.4,
+      "TotalTimeoutDuration": 10505000
+    }
+  },
+  "Simulation_12_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 384124,
+      "TotalDeadlocks": 1,
+      "AverageDuration": 3841.24,
+      "TotalTimeoutDuration": 3000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 26320000,
+      "TotalDeadlocks": 5,
+      "AverageDuration": 263200.0,
+      "TotalTimeoutDuration": 800000
+    }
+  },
+  "Simulation_13_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 975678,
+      "TotalDeadlocks": 2,
+      "AverageDuration": 4878.39,
+      "TotalTimeoutDuration": 8000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 64640000,
+      "TotalDeadlocks": 10,
+      "AverageDuration": 323200.0,
+      "TotalTimeoutDuration": 1600000
+    }
+  },
+  "Simulation_14_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 2400000,
+      "TotalDeadlocks": 4,
+      "AverageDuration": 4800.0,
+      "TotalTimeoutDuration": 16000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 141000000,
+      "TotalDeadlocks": 25,
+      "AverageDuration": 282000.0,
+      "TotalTimeoutDuration": 3000000
+    }
+  },
+  "Simulation_15_Isolation_ReadUncommitted_DB_Part 2: With indexes ✔": {
+    "TypeB_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 4754321,
+      "TotalDeadlocks": 6,
+      "AverageDuration": 4754.32,
+      "TotalTimeoutDuration": 35000
+    },
+    "TypeA_ReadUncommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 338700000,
+      "TotalDeadlocks": 50,
+      "AverageDuration": 338700.0,
+      "TotalTimeoutDuration": 7000000
+    }
+  },
+  "Simulation_12_Isolation_ReadCommitted_DB_Part 2: With indexes ✔": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 188665,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 188665.0,
+      "TotalTimeoutDuration": 2000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 2918,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 2918.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_13_Isolation_ReadCommitted_DB_Part 2: With indexes ✔": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 5536687,
+      "TotalDeadlocks": 1,
+      "AverageDuration": 276834.35,
+      "TotalTimeoutDuration": 11200000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 214618,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 10730.9,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_14_Isolation_ReadCommitted_DB_Part 2: With indexes ✔": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 37320000,
+      "TotalDeadlocks": 4,
+      "AverageDuration": 373200.0,
+      "TotalTimeoutDuration": 1000000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 515243,
+      "TotalDeadlocks": 1,
+      "AverageDuration": 5152.43,
+      "TotalTimeoutDuration": 3000
+    }
+  },
+  "Simulation_15_Isolation_ReadCommitted_DB_Part 2: With indexes ✔": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 93650000,
+      "TotalDeadlocks": 11,
+      "AverageDuration": 468250.0,
+      "TotalTimeoutDuration": 3100000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 1083232,
+      "TotalDeadlocks": 5,
+      "AverageDuration": 5416.16,
+      "TotalTimeoutDuration": 17000
+    }
+  },
+  "Simulation_16_Isolation_ReadCommitted_DB_Part 2: With indexes ✔": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 226200000,
+      "TotalDeadlocks": 32,
+      "AverageDuration": 452400.0,
+      "TotalTimeoutDuration": 4000000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 500,
+      "TotalDuration": 2386543,
+      "TotalDeadlocks": 6,
+      "AverageDuration": 4773.08,
+      "TotalTimeoutDuration": 37500
+    }
+  },
+  "Simulation_17_Isolation_ReadCommitted_DB_Part 2: With indexes ✔": {
+    "TypeA_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 547600000,
+      "TotalDeadlocks": 90,
+      "AverageDuration": 547600.0,
+      "TotalTimeoutDuration": 11000000
+    },
+    "TypeB_ReadCommitted_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1000,
+      "TotalDuration": 4832143,
+      "TotalDeadlocks": 9,
+      "AverageDuration": 4832.14,
+      "TotalTimeoutDuration": 32000
+    }
+  },
+  "Simulation_14_Isolation_RepeatableRead_DB_Part 2: With indexes ✔": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 184049,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 184049.0,
+      "TotalTimeoutDuration": 2000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 2962,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 2962.0,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_15_Isolation_RepeatableRead_DB_Part 2: With indexes ✔": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 7628456,
+      "TotalDeadlocks": 2,
+      "AverageDuration": 381422.8,
+      "TotalTimeoutDuration": 5200000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 213825,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 10691.25,
+      "TotalTimeoutDuration": 0
+    }
+  },
+  "Simulation_16_Isolation_RepeatableRead_DB_Part 2: With indexes ✔": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 43050000,
+      "TotalDeadlocks": 18,
+      "AverageDuration": 430500.0,
+      "TotalTimeoutDuration": 500000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 100,
+      "TotalDuration": 615243,
+      "TotalDeadlocks": 4,
+      "AverageDuration": 6152.43,
+      "TotalTimeoutDuration": 2500
+    }
+  },
+  "Simulation_17_Isolation_RepeatableRead_DB_Part 2: With indexes ✔": {
+    "TypeA_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 133650000,
+      "TotalDeadlocks": 34,
+      "AverageDuration": 668250.0,
+      "TotalTimeoutDuration": 1700000
+    },
+    "TypeB_RepeatableRead_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 200,
+      "TotalDuration": 1768323,
+      "TotalDeadlocks": 8,
+      "AverageDuration": 8841.62,
+      "TotalTimeoutDuration": 29000
+    }
+  },
+  "Simulation_15_Isolation_Serializable_DB_Part 2: With indexes ✔": {
+    "TypeB_Serializable_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 70273,
+      "TotalDeadlocks": 18,
+      "AverageDuration": 70273.0,
+      "TotalTimeoutDuration": 15000
+    },
+    "TypeA_Serializable_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 125544,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 125544.0,
+      "TotalTimeoutDuration": 25000
+    }
+  },
+  "Simulation_16_Isolation_Serializable_DB_Part 2: With indexes ✔": {
+    "TypeB_Serializable_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 1350000,
+      "TotalDeadlocks": 34,
+      "AverageDuration": 67500.0,
+      "TotalTimeoutDuration": 12000
+    },
+    "TypeA_Serializable_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 20,
+      "TotalDuration": 5500000,
+      "TotalDeadlocks": 35,
+      "AverageDuration": 275000.0,
+      "TotalTimeoutDuration": 2200000
+    }
+  },
+  "Simulation_17_Isolation_Serializable_DB_Part 2: With indexes ✔": {
+    "TypeB_Serializable_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 220789,
+      "TotalDeadlocks": 42,
+      "AverageDuration": 0.0,
+      "TotalTimeoutDuration": 130000
+    },
+    "TypeA_Serializable_Server=localhost;Database=AdventureWorks2022WithIndexes;Integrated Security=True;": {
+      "TotalRuns": 1,
+      "TotalDuration": 557677,
+      "TotalDeadlocks": 0,
+      "AverageDuration": 0.0,
+      "TotalTimeoutDuration": 50000
+    }
+  }
+}
